@@ -16,6 +16,7 @@ Tag.init(
      },
      tag_name: {
       type: DataTypes.STRING,
+     }
   },
   {
     sequelize,
@@ -24,6 +25,7 @@ Tag.init(
     underscored: true,
     modelName: 'tag',
   }
+
 );
 
 module.exports = Tag;
