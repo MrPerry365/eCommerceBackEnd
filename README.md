@@ -25,14 +25,14 @@ Use npm i to install this projects dependencies
 In MySQL source the data base (source ./db/schema.sql) and in the terminal seed the project (node seeds/index.js). After this is done run (npm start) in the terminal and open project in insomnia to access GET POST PUT and DELETE routes 
 
 ## Contributors
-
+MrPerry
 
 ## License
 ### MIT
 ### link: (https://opensource.org/licenses/MIT)
 
 ## Test
-Insomnia: GET PUT POST and DELETE requests
+Insomnia: GET, PUT, POST, and DELETE requests
 
 
 ## Questions
@@ -40,7 +40,7 @@ Insomnia: GET PUT POST and DELETE requests
 
 #### GitHub Username: [MrPerry365]
 
-#### GitHub Profile: [MrPerry365]
+#### GitHub Profile: [https://github.com/MrPerry365/eCommerceBackEnd.git]
 
 #### Email Address: [1987nowhere@gmail.com]
 

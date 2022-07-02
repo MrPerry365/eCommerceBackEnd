@@ -56,13 +56,14 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
+  console.log('here!');
   // update a category by its `id` value
-  Category.update(req.body, {
-    where: {
-      id: req.params.id,
-    },
-  })
+  Category.update(
+    { category_name : req.body.category_name },
+    { where: { id: req.params.id, } } 
+  )
     .then((dbCategoryData) => {
+      console.log(dbCategoryData);
       res.json(dbCategoryData);
     })
     .catch((err) => {
