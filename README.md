@@ -18,11 +18,17 @@ Author: MrPerry
 - [author](#author),
 - [questions](#questions),
 
+## Screenshot
+<img src ="assets/eCommerce Back end.png">
+
+# Link to Presentation of GET, POST, PUT and DELETE using Insomnia
+(https://drive.google.com/file/d/1Y0tQPcWeb2GzBF_1CcLyQBVpf46WHJyR/view)
+
 ## Installation
 Use npm i to install this projects dependencies
 
 ## Usage
-In MySQL source the data base (source ./db/schema.sql) and in the terminal seed the project (node seeds/index.js). After this is done run (npm start) in the terminal and open project in insomnia to access GET POST PUT and DELETE routes 
+In MySQL source the data base (source ./db/schema.sql) and in the terminal seed the project (npm run seed). After this is done run (node server.js) in the terminal and open project in insomnia to access GET POST PUT and DELETE routes 
 
 ## Contributors
 MrPerry
